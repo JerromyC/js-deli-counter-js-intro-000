@@ -12,16 +12,29 @@ function nowServing(line) {
   }
 }
 
-function currentLine(line) {
-  if(!line.length) {
-    console.log(`This line is currently empty.`);
-    return `This line is currently empty.`;
-  }
-  var lineNamesAndNumbers = []
+// function currentLine(line) {
+//   if(!line.length) {
+//     console.log(`This line is currently empty.`);
+//     return `This line is currently empty.`;
+//   }
+//   var lineNamesAndNumbers = []
+// 
+//   for(i = 0; i < line.length; i++) {
+//     lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
+//   }
+//     console.log(`The line is currently: ` + lineNamesAndNumbers + `.`);
+//     return `The line is currently: ` + lineNamesAndNumbers.join(`,`);
+// }
 
-  for(i = 0; i < line.length; i++) {
-    lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
+function currentLine(line){
+  if(!line.length) {
+    return "The line is currently empty.";
   }
-    console.log(`The line is currently: ` + lineNamesAndNumbers + `.`);
-    return `The line is currently: ` + lineNamesAndNumbers.join(`,`);
+  var lineNamesandNumbers = [];
+  
+  for(var i=0; i<line.length; i++) {
+    lineNamesandNumbers.push(i+1 + ". "+ line[i]);
+  }
+  console.log("The line is currently: " + lineNamesandNumbers)
+  return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
