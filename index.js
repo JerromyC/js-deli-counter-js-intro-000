@@ -14,5 +14,10 @@ function nowServing(line) {
 }
 
 function currentLine() {
-
+  if(!line.length) {
+    console.log(`This line is currently empty.`);
+    return `This line is currently empty.`;
+  } else {
+    return katzDeliLine;
+  }
 }
