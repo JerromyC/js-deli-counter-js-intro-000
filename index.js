@@ -18,7 +18,7 @@ function nowServing(line) {
 //     return `This line is currently empty.`;
 //   }
 //   var lineNamesAndNumbers = []
-// 
+//
 //   for(i = 0; i < line.length; i++) {
 //     lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
 //   }
@@ -31,7 +31,7 @@ function currentLine(line){
     return "The line is currently empty.";
   }
   var lineNamesandNumbers = [];
-  
+
   for(var i=0; i<line.length; i++) {
     lineNamesandNumbers.push(i+1 + ". "+ line[i]);
   }
