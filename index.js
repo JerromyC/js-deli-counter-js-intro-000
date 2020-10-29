@@ -14,5 +14,5 @@ function nowServing(line) {
 }
 
 function currentLine() {
-  
+
 }
