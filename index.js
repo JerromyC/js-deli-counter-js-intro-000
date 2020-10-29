@@ -21,7 +21,7 @@ function currentLine() {
 
   for(i = 0; i < line.length; i++) {
     console.log(`The line is currently ` + lineNamesAndNumbers + `.`);
-    return `The line is currently ` + lineNamesAndNumbers.join(`,`) + `.`;
+    return `The line is currently ` + lineNamesAndNumbers.join(`,`);
   }
   }
 }
