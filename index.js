@@ -12,28 +12,28 @@ function nowServing(line) {
   }
 }
 
-// function currentLine(line) {
-//   if(!line.length) {
-//     return `This line is currently empty.`;
-//   }
-//   var lineNamesAndNumbers = []
-//
-//   for(var i = 0; i < line.length; i++) {
-//     lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
-//   }
-//     console.log(`The line is currently: ` + lineNamesAndNumbers);
-//     return `The line is currently: ` + lineNamesAndNumbers.join(`, `);
-// }
-
-function currentLine(line){
+function currentLine(line) {
   if(!line.length) {
-    return "The line is currently empty.";
+    return `This line is currently empty.`;
   }
-  var lineNamesandNumbers = [];
+  var lineNamesAndNumbers = []
 
-  for(var i=0; i<line.length; i++) {
-    lineNamesandNumbers.push(i+1 + ". "+ line[i]);
+  for(var i = 0; i < line.length; i++) {
+    lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
   }
-  console.log("The line is currently: " + lineNamesandNumbers)
-  return "The line is currently: " + lineNamesandNumbers.join(', ');
+    console.log(`The line is currently: ` + lineNamesAndNumbers);
+    return `The line is currently: ` + lineNamesAndNumbers.join(`, `);
 }
+
+// function currentLine(line){
+//   if(!line.length) {
+//     return "The line is currently empty.";
+//   }
+//   var lineNamesandNumbers = [];
+// 
+//   for(var i=0; i<line.length; i++) {
+//     lineNamesandNumbers.push(i+1 + ". "+ line[i]);
+//   }
+//   console.log("The line is currently: " + lineNamesandNumbers)
+//   return "The line is currently: " + lineNamesandNumbers.join(', ');
+// }
