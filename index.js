@@ -12,7 +12,7 @@ function nowServing(line) {
   }
 }
 
-function currentLine() {
+function currentLine(line) {
   if(!line.length) {
     console.log(`This line is currently empty.`);
     return `This line is currently empty.`;
