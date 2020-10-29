@@ -14,16 +14,15 @@ function nowServing(line) {
 
 // function currentLine(line) {
 //   if(!line.length) {
-//     console.log(`This line is currently empty.`);
 //     return `This line is currently empty.`;
 //   }
 //   var lineNamesAndNumbers = []
 //
-//   for(i = 0; i < line.length; i++) {
+//   for(var i = 0; i < line.length; i++) {
 //     lineNamesAndNumbers.push(i + 1 + `. ` + line[i]);
 //   }
-//     console.log(`The line is currently: ` + lineNamesAndNumbers + `.`);
-//     return `The line is currently: ` + lineNamesAndNumbers.join(`,`);
+//     console.log(`The line is currently: ` + lineNamesAndNumbers);
+//     return `The line is currently: ` + lineNamesAndNumbers.join(`, `);
 // }
 
 function currentLine(line){
