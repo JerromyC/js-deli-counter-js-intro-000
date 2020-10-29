@@ -14,7 +14,7 @@ function nowServing(line) {
 
 function currentLine(line) {
   if(!line.length) {
-    return `This line is currently empty.`;
+    return `The line is currently empty.`;
   }
   var lineNamesAndNumbers = []
 
