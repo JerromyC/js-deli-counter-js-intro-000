@@ -16,9 +16,9 @@ function currentLine() {
   if(!line.length) {
     console.log(`This line is currently empty.`);
     return `This line is currently empty.`;
-  } 
+  }
   var lineNamesAndNumbers = []
-  
+
   for(i = 0; i < line.length; i++) {
     console.log(`The line is currently ` + ${lineNamesAndNumbers} + `.`);
     return `The line is currently ` + ${lineNamesAndNumbers} + `.`
